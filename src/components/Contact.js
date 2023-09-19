@@ -3,7 +3,7 @@ import { GMAIL_IMG_URL, LINKEDIN_IMG_URL } from '../utils/constants'
 
 const Contact = () => {
   return (
-    <div className="w-10/12 mx-auto mt-16" id="education">
+    <div className="w-10/12 mx-auto mt-16" id="contact">
       <p className="text-center text-gray-700 text-lg">Get in touch</p>
       <p className="text-center text-gray-700 text-2xl underline mb-8">
         Contact Me

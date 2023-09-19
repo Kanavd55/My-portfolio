@@ -38,7 +38,7 @@ const About = () => {
             </div>
             <div className="flex justify-center mt-3">
               <a
-                href={require("../utils/Resume.pdf")}
+                href={require("../assets/Resume.pdf")}
                 download="Kanav's Resume"
                 className="rounded-2xl p-2 text-sm border hover:bg-black hover:text-white border-black m-2"
               >
