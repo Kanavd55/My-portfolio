@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="w-10/12 mx-auto mt-16">
+    <div className="w-10/12 mx-auto mt-16" id="projects">
         <p className="text-center text-gray-700 text-lg">Browse my recent</p>
         <p className="text-center text-gray-700 text-2xl underline mb-8">Projects</p>
     <div className="flex flex-wrap justify-around">
