@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import Projects from './Projects'
 import Education from './Education'
+import Contact from './Contact'
 
 const Body = () => {
   return (
@@ -9,6 +10,7 @@ const Body = () => {
       <About/>
       <Education/>
       <Projects/>
+      <Contact/>
     </div>
   )
 }
