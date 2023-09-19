@@ -11,6 +11,7 @@ import {
   Sql_logo,
   Tailwind_logo,
 } from "../utils/constants";
+import { Link } from "react-scroll";
 
 const About = () => {
   const [user, setUser] = useState();
@@ -55,9 +56,18 @@ const About = () => {
               >
                 Download CV
               </a>
-              <button className="rounded-2xl p-2 text-sm border  hover:bg-black hover:text-white border-black m-2">
-                Contact Info
-              </button>
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+                isDynamic={true}
+              >
+                <button className="rounded-2xl p-2 text-sm border hover:bg-black hover:text-white border-black m-2">
+                  Contact Info
+                </button>
+              </Link>
             </div>
             <div className="flex flex-wrap justify-around mt-3">
               <div className="text-center text-sm m-2 font-semibold">
