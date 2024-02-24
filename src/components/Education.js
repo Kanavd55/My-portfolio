@@ -4,7 +4,7 @@ import EducationCard from "./EducationCard";
 const Education = () => {
   return (
     <div className="w-10/12 mx-auto mt-16" id="education">
-      <p className="text-center text-gray-700 text-lg">See details of</p>
+      <p className="text-center text-gray-700 text-lg">Know details of my</p>
       <p className="text-center text-gray-700 text-2xl underline mb-8">
         Education
       </p>
@@ -17,13 +17,13 @@ const Education = () => {
         />
         <EducationCard
           title="Higher Secondary Certificate"
-          university="Tarkunde Dharampeth Junior College"
+          university="Tarkunde Dharampeth High School"
           duration="06/2014-05/2015"
           percentage="81.82 %"
         />
         <EducationCard
           title="B.E. (Mechanical Engineering)"
-          university="Rashtrasanth Tukadoji Maharaj Nagpur University"
+          university="RTMNU"
           duration="06/2015-05/2019"
           percentage="7.75 CGPA"
         />

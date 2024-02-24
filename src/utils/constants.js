@@ -31,5 +31,3 @@ export const Mail_Link='mailto:kanavdahat55@gmail.com';
 export const LinkedIn_Link='https://www.linkedin.com/in/kd28/';
 
 export const Github_Link='https://github.com/Kanavd55';
-
-export const Instagram_Link='https://www.instagram.com/kanavvv_/';

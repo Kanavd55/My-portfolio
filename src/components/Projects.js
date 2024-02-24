@@ -21,7 +21,7 @@ const Projects = () => {
         about="CineUniverse: Your go-to source for trending movies, top-rated films, and hot TV shows. Explore, search, and watch trailers effortlessly with our user-friendly interface, powered by the reliable TMDB API. Dive into the world of entertainment today!"
         github_link="https://github.com/Kanavd55/CineUniverse"
         live_link="https://cineuniverse-kanav.netlify.app/"
-        video_link="https://www.youtube.com/watch?v=d5K4lEkuJik&t=93s"
+        video_link="https://www.linkedin.com/feed/update/urn:li:activity:7106313488276336641/"
       />
     </div>
     </div>

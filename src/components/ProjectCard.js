@@ -13,10 +13,10 @@ const ProjectCard = ({
       <img src={img_url} alt="project-img" className="w-full h-72 rounded-lg" />
       <p className="p-2 mt-2 mx-2 font-semibold text-lg">{title}</p>
       <p className="p-2 text-sm">{about}</p>
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap justify-around">
         <button className="p-4 m-2 hover:bg-red-600 bg-red-500 rounded-2xl text-white text-sm">
           <a href={live_link} rel="noreferrer" target="_blank">
-            Live Link
+            Live App Link
           </a>
         </button>
         <button className="p-4 m-2 hover:bg-red-600 bg-red-500 rounded-2xl text-white text-sm">
